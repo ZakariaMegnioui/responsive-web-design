@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <title>Social Media</title>
+    <link rel="icon" href="./img/undraw_voice_assistant_nrv7.svg" type="svg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <img class="logo" src="./img/undraw_voice_assistant_nrv7.svg" alt="">
+            <nav>
+                <ul id="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Media</a></li>
+                    <li><a href="">Controller</a></li>
+                    <li><a href="">Vp Assic</a></li>
+                </ul>
+            </nav>
+            <img src="./img/iconmonstr-menu-5.svg" onclick="toggelMenu()" class="menu-icon">
+        </div>
+        <div class="row">
+            <div class="col1">
+                <h2>Social media </h2>
+                <h3>a computer-based technology</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, possimus expedita similique hic
+                    nobis facere earum eos illum ab itaque ut aliquam rerum doloremque quisquam in quam ad? Impedit,
+                    quo?</p>
+                <button class="btn-seemore">See more</button>
+            </div>
+            <div class="col2">
+                <div class="color-box"></div>
+                <img src="./img/undraw_taking_selfie_lbo7.svg" class="image">
+                <div class="color-box"></div>
+            </div>
+
+        </div>
+        <div class="social-link">
+            <div class="box">
+                <img src="./img/undraw_social_sharing_ibwq.svg" alt="">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quod ipsam impedit
+                    nostrum in
+                    aliquid temporibus libero, vero, adipisci nisi est id repellendus natus? Possimus consequuntur sed
+                    repudiandae magni nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/undraw_social_serenity_vhix.svg" alt="">
+                <p></BR> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quod ipsam impedit
+                    nostrum in
+                    aliquid temporibus libero, vero, adipisci nisi est id repellendus natus? Possimus consequuntur
+                    sed
+                    repudiandae magni nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./img/undraw_buffer_wq43.svg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quod ipsam impedit nostrum
+                    in
+                    aliquid temporibus libero, vero, adipisci nisi est id repellendus natus? Possimus
+                    consequuntur sed
+                    repudiandae magni nobis.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menu-list");
+
+        menuList.style.maxHeight = "0px";
+        function toggelMenu() {
+            if (menuList.style.maxHeight == '0px') {
+                menuList.style.maxHeight = "100%"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
